@@ -12,8 +12,8 @@ class BaseSetting(object):
     use_bootswatch = True
 
 class GloabalSettings(object):
-    site_title = "英语语料库网"
-    site_footer = "英语语料库网"
+    site_title = "上体体操数据分析系统"
+    site_footer = "上体体操数据分析系统"
     menu_style = "accordion"
 
 class UserAdmin(object):

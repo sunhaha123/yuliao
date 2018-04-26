@@ -40,9 +40,13 @@ INSTALLED_APPS = [
     'users',
     'xadmin',
     'crispy_forms',
-    'dataB',
+    # 'dataB',
+    # 'athletes',
     # 'library',
     # 'database',
+    'yundongyuan',
+    'events',
+    'xunlian',
 ]
 
 AUTH_USER_MODEL = 'users.UserProfile'
@@ -86,7 +90,7 @@ WSGI_APPLICATION = 'yuliao.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "yuliaoku",
+        'NAME': "ticao",
         'USER':"root",
         'PASSWORD':"root",
         'HOST':"127.0.0.1",
