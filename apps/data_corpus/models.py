@@ -12,7 +12,7 @@ class Library(models.Model):
     meaning = models.CharField(max_length=30, verbose_name=u'关键词语义',default=u'null')
     partofspeech = models.CharField(max_length=30, verbose_name=u'关键词词性',default=u'null')
     sport = models.ForeignKey(Sport,verbose_name=u'运动种类')
-    cexing = models.CharField(max_length=30, verbose_name=u'层性',default=u'null')
+    cixing = models.CharField(max_length=30, verbose_name=u'层性',default=u'null')
     BCcengxing = models.CharField(max_length=30, verbose_name=u'表层层性',default=u'null')
 
 

@@ -1,0 +1,7 @@
+# -*- coding:utf-8 -*-
+from __future__ import unicode_literals
+
+from django.apps import AppConfig
+class SportsConfig(AppConfig):
+    name = 'sports'
+    verbose_name = u"运动项目"

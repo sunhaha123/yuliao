@@ -1,0 +1,1 @@
+default_app_config = "data_corpus.apps.Data_corpusConfig"
