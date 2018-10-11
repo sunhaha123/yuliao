@@ -11,7 +11,7 @@ from  .models import Library
 class LibraryAdmin(object):
     list_display = ['id','pre_word','word', 'after_word','meaning','partofspeech','sport','source']
     search_fields = ['pre_word','word', 'after_word','source','meaning','partofspeech',]
-    list_filter = ['pre_word','word', 'after_word','source','meaning','partofspeech','source']
+    list_filter = ['pre_word','word', 'after_word','source','meaning','partofspeech',]
     model_icon = 'fa fa-list-alt'
 
     import_excel = True
