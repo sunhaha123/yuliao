@@ -6,6 +6,7 @@ import xadmin
 from  xadmin.views import BaseAdminPlugin,ListAdminView
 from  django.template import loader
 
+
 class ListImportExcelPlugin(BaseAdminPlugin):
     import_excel = False
 

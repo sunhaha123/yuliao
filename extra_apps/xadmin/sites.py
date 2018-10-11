@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Administrator
+"""
 import sys
 from functools import update_wrapper
 from future.utils import iteritems

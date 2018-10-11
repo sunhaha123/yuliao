@@ -139,3 +139,13 @@ USE_TZ = False     #国际时间/本地时间
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "smtp-mail.outlook.com"
+EMAIL_PORT  = 587
+EMAIL_HOST_USER = "sunjh007@outlook.com"
+EMAIL_HOST_PASSWORD = "sun78998779"
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+# EMAIL_USE_SSL = True
