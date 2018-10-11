@@ -10,7 +10,7 @@ class Sport(models.Model):
 
 
     class Meta:
-        verbose_name = u'运动项目'
+        verbose_name = u'运动项目信息'
         verbose_name_plural = verbose_name
 
     def __str__(self):
