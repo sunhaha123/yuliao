@@ -18,7 +18,7 @@ class Library(models.Model):
 
 
     class Meta:
-        verbose_name = u'语料库'
+        verbose_name = u'语料'
         verbose_name_plural = verbose_name
 
     def __str__(self):
