@@ -28,7 +28,7 @@ class LibraryAdmin(object):
                     pre_word=col[0],
                     word=col[1],
                     after_word=col[2],
-                    cixing=col[3],
+                    partofspeech=col[3],
                     meaning=col[4],
                     sport_id=col[5],
                 )
