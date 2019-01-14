@@ -28,9 +28,10 @@ class LibraryAdmin(object):
                     pre_word=col[0],
                     word=col[1],
                     after_word=col[2],
-                    partofspeech=col[3],
-                    meaning=col[4],
+                    partofspeech=col[4],
+                    meaning=col[3],
                     sport_id=col[5],
+                    source=col[6]
                 )
                 sql_list.append(sql)
             Library.objects.bulk_create(sql_list)
